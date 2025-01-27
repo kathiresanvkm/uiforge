@@ -2,12 +2,18 @@ app_name = "uiforge"
 app_title = "UIForge"
 app_publisher = "MazeWorks Solutions"
 app_description = "Where premium interfaces are crafted"
-app_email = "kathiresan@mazeworkssolutions.com"
+app_email = "kathiresanvkm@gmail.com"
 app_license = "mit"
+
 
 # Apps
 # ------------------
-
+app_include_css = "themeui.bundle.css"
+app_include_js = [
+    "custom_list_view.bundle.js",
+    "custom_button.bundle.js"
+]
+extend_bootinfo = ["uiforge.uiforge.boot.custom_get_workspace_sidebar_items","uiforge.uiforge.boot.get_doctypes"]
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
